@@ -5,34 +5,45 @@ const estilos = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#fafafa',
+        width: '100%',
+    },
+    nome: {
+        fontSize: 21,
+        fontWeight: '600',
+        color: '#45565F',
+        padding: 15,
+        textAlign: 'center',
+        marginTop: '10%'
+    },
+    descricao: {
+        fontSize: 17,
+        color: '#717E84',
+        marginTop: 5,
+        textAlign: 'center',
+        paddingBottom: 10,
+        borderBottomWidth: 0.2,
+        borderBottomColor: '#717E84',
+    },
+    icons: {
+        flexDirection: 'row',
+        marginTop: 8,
+        marginBottom: 5,
         alignItems: 'center',
-        justifyContent: 'center',
+        marginLeft: '25%',
+        width: '50%',
     },
-    botao: {
-        backgroundColor: '#8A07DA',
-        marginTop: 50,
-        padding: 10,
-        alignItems: 'center',
-        justifyContent: 'center',
-        borderRadius: 8,
-        width: '90%',
+    iconsText: {
+        paddingLeft: 5,
+        fontSize: 14      
     },
-    textoBotao: {
-        fontWeight: 'bold',
-        fontSize: 16,
-        color: '#fff',
-    },
-    entrada: {
-        borderWidth: 2,
-        borderColor: '#ddd',
-        paddingHorizontal: 20,
-        fontSize: 16,
+    data: {
+        textAlign: 'center',
+        fontSize: 14,
         color: '#444',
         marginTop: 20,
         borderRadius: 8,
         height: 44,
-        width: '90%',
-    }
+    },
 });
 
 export default estilos;

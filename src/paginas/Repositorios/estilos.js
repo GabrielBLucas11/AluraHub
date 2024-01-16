@@ -12,6 +12,7 @@ const estilos = StyleSheet.create({
         fontWeight: '600',
         color: '#45565F',
         marginTop: 20,
+        marginBottom: 10
     },
     titulo: {
         fontSize: 20,
